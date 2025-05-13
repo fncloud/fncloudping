@@ -2,10 +2,10 @@ import { NextResponse } from "next/server"
 
 export async function GET() {
   let urls = [
-	'https://blog.fntao5.cn#Cloudflare CDN',
-	'https://fastly.flw8.top#Fastly CDN',
-	'https://vercel.fntao5.cn#Vercel CDN',
-	'https://www.fnyun.ip-ddns.com#备用地址'
+	'https://www.fnshop.fntaowu.com#FnCloud CDN',
+	'https://xn--9kqw98kgro.fntao5.cn#Cloudflare CDN',
+	'https://fastlys.fntaowu.com#Fastly CDN',
+	'https://fnshop.ip-ddns.com#备用地址'
   ]
 
   // If URL environment variable exists, process it
