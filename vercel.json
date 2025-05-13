@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/ads.txt",
+      "dest": "/api"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/api"
+    },
+    {
+      "src": "/bgimg",
+      "dest": "/api"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api"
+    }
+  ]
+}
