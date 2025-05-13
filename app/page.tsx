@@ -5,10 +5,10 @@ import Image from "next/image"
 
 export default function Home() {
   const [urls, setUrls] = useState([
-	'https://blog.fntao5.cn#Cloudflare CDN',
-	'https://fastly.flw8.top#Fastly CDN',
-	'https://vercel.fntao5.cn#Vercel CDN',
-	'https://www.fnyun.ip-ddns.com#备用地址'
+	'https://www.fnshop.fntaowu.com#FnCloud CDN',
+	'https://xn--9kqw98kgro.fntao5.cn#Cloudflare CDN',
+	'https://fastlys.fntaowu.com#Fastly CDN',
+	'https://fnshop.ip-ddns.com#备用地址'
   ])
 
   const [results, setResults] = useState<Array<{ url: string; name: string; latency: number | string }>>([])
@@ -18,8 +18,8 @@ export default function Home() {
   // Site configuration
   const img = process.env.NEXT_PUBLIC_IMG || "https://raw.cmliussss.com/keqing1080p.jpg"
   const 网站头像 = process.env.NEXT_PUBLIC_PNG || "https://yunpan.flw8.top/PicGo/fnyun"
-  const 网页标题 = process.env.NEXT_PUBLIC_TITLE || "Fn Cloud蜂鸟云技术 智能访问"
-  const 站点名称 = process.env.NEXT_PUBLIC_NAME || "Fn Cloud蜂鸟云技术平台 - 智能访问"
+  const 网页标题 = process.env.NEXT_PUBLIC_TITLE || "Fn Cloud蜂鸟云账号商场"
+  const 站点名称 = process.env.NEXT_PUBLIC_NAME || "Fn Cloud蜂鸟云商场 - 智能访问"
 
   useEffect(() => {
     // Fetch visitor count
