@@ -6,7 +6,7 @@ import { Inter } from "next/font/google"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: process.env.NEXT_PUBLIC_NAME || "Fn Cloud蜂鸟云技术平台 - 智能访问",
+  title: process.env.NEXT_PUBLIC_NAME || "Fn Cloud蜂鸟云账号商场",
   description: "智能测速并自动跳转到最快的站点",
     generator: 'v0.dev'
 }
