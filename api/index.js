@@ -3,10 +3,10 @@ export const config = {
 }
 
 let urls = [
-  "https://blog.fntao5.cn#Cloudflare CDN",
-  "https://fastly.flw8.top#Fastly CDN",
-  "https://vercel.fntao5.cn#Vercel CDN",
-  "https://www.fnyun.ip-ddns.com#备用地址",
+  "https://www.fnshop.fntaowu.com#FnCloud CDN",
+  "https://xn--9kqw98kgro.fntao5.cn#Cloudflare CDN",
+  "https://fastlys.fntaowu.com#Fastly CDN",
+  "https://fnshop.ip-ddns.com#备用地址",
 ]
 
 export default async function handler(request) {
@@ -20,8 +20,8 @@ export default async function handler(request) {
   const ads = process.env.ADS || "google.com, pub-9350003957494520, DIRECT, f08c47fec0942fa0"
   const 网站图标 = process.env.ICO || "https://yunpan.flw8.top/PicGo/fnyun"
   const 网站头像 = process.env.PNG || "https://yunpan.flw8.top/PicGo/fnyun"
-  const 网页标题 = process.env.TITLE || "Fn Cloud蜂鸟云技术 智能访问"
-  const 站点名称 = process.env.NAME || "Fn Cloud蜂鸟云技术平台 - 智能访问"
+  const 网页标题 = process.env.TITLE || "Fn Cloud蜂鸟云账号商场"
+  const 站点名称 = process.env.NAME || "Fn Cloud蜂鸟云商场 - 智能访问"
   if (url.pathname.toLowerCase() == "/ads.txt") {
     return new Response(ads, {
       headers: {
